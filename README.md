@@ -18,7 +18,9 @@ electronize init src/ElectronNet
 Start
 
 ```bash
-cd src/ElectronNet
+npm install
 npm run parcel-watch
+
+cd src/ElectronNet
 electronize start
 ```
