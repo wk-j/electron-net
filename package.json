@@ -1,0 +1,29 @@
+{
+    "name": "electronnet",
+    "version": "1.0.0",
+    "description": "Install tool",
+    "main": "index.js",
+    "scripts": {
+        "parcel-start": "node node_modules/parcel-bundler/bin/cli.js web/index.html -d src/KFrontend/wwwroot --public-url /",
+        "parcel-watch": "node node_modules/parcel-bundler/bin/cli.js watch web/index.html -d src/ElectronNet/wwwroot --public-url /",
+        "parcel-build": "node node_modules/parcel-bundler/bin/cli.js build web/index.html -d src/ElectronNet/wwwroot --public-url /"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wk-j/electron-net.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wk-j/electron-net/issues"
+    },
+    "homepage": "https://github.com/wk-j/electron-net#readme",
+    "devDependencies": {
+        "@types/react": "^16.8.10",
+        "@types/react-dom": "^16.8.3",
+        "parcel-bundler": "^1.12.3",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "typescript": "^3.4.1"
+    }
+}

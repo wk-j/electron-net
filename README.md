@@ -19,5 +19,6 @@ Start
 
 ```bash
 cd src/ElectronNet
+npm run parcel-watch
 electronize start
 ```
